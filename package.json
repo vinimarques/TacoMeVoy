@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "@craco/craco": "^6.1.1",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
@@ -17,7 +20,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "server": "node server/index.js",
+    "server": "node server.js",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
