@@ -19,11 +19,12 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "craco start",
+    "craco:start": "craco start",
     "server": "node server.js",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": ""
   },
   "eslintConfig": {
     "extends": [
